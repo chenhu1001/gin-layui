@@ -24,7 +24,7 @@
 package controller
 
 import (
-	"easygoadmin/utils/response"
+	"github.com/chenhu1001/gin-layui/utils/response"
 	"github.com/gin-gonic/gin"
 )
 

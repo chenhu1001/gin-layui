@@ -24,10 +24,10 @@
 package service
 
 import (
-	"easygoadmin/app/model"
-	"easygoadmin/utils"
-	"easygoadmin/utils/gstr"
 	"errors"
+	"github.com/chenhu1001/gin-layui/app/model"
+	"github.com/chenhu1001/gin-layui/utils"
+	"github.com/chenhu1001/gin-layui/utils/gstr"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
 	"time"

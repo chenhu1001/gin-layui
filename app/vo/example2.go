@@ -23,7 +23,7 @@
  */
 package vo
 
-import "easygoadmin/app/model"
+import "github.com/chenhu1001/gin-layui/app/model"
 
 // 演示二信息Vo
 type Example2InfoVo struct {

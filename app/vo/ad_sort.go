@@ -23,7 +23,7 @@
  */
 package vo
 
-import "easygoadmin/app/model"
+import "github.com/chenhu1001/gin-layui/app/model"
 
 // 广告位信息
 type AdSortInfoVo struct {

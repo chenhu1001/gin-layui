@@ -24,8 +24,8 @@
 package middleware
 
 import (
-	"easygoadmin/utils"
 	"fmt"
+	"github.com/chenhu1001/gin-layui/utils"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"strings"

@@ -24,10 +24,10 @@
 package router
 
 import (
-	"easygoadmin/app/controller"
-	"easygoadmin/app/middleware"
-	"easygoadmin/widget"
 	"fmt"
+	"github.com/chenhu1001/gin-layui/app/controller"
+	"github.com/chenhu1001/gin-layui/app/middleware"
+	"github.com/chenhu1001/gin-layui/widget"
 	"github.com/gin-contrib/multitemplate"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-contrib/sessions/cookie"
@@ -47,7 +47,7 @@ func init() {
 	store := cookie.NewStore([]byte("MIIEogIBAAKCAQEA2"))
 	// 设置session中间件，参数mysession，指的是session的名字，也是cookie的名字
 	// store是前面创建的存储引擎，我们可以替换成其他存储引擎
-	router.Use(sessions.Sessions("easygoadmin", store))
+	router.Use(sessions.Sessions("github.com/chenhu1001/gin-layui", store))
 	// 登录验证中间件
 	router.Use(middleware.CheckLogin())
 

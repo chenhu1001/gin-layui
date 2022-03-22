@@ -18,7 +18,7 @@
 package model
 
 import (
-	"easygoadmin/utils"
+	"github.com/chenhu1001/gin-layui/utils"
 )
 
 type AdSort struct {

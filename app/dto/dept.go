@@ -23,7 +23,7 @@
  */
 package dto
 
-import "easygoadmin/app/model"
+import "github.com/chenhu1001/gin-layui/app/model"
 
 // 分页查询条件
 type DeptPageReq struct {

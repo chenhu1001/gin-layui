@@ -24,8 +24,8 @@
 package router
 
 import (
-	"easygoadmin/app/controller"
 	"fmt"
+	"github.com/chenhu1001/gin-layui/app/controller"
 	"github.com/gin-gonic/gin"
 )
 

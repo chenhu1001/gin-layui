@@ -23,7 +23,7 @@
  */
 package vo
 
-import "easygoadmin/app/model"
+import "github.com/chenhu1001/gin-layui/app/model"
 
 // 友链信息
 type LinkInfoVo struct {

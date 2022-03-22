@@ -24,9 +24,9 @@
 package service
 
 import (
-	"easygoadmin/app/dto"
-	"easygoadmin/app/model"
-	"easygoadmin/utils"
+	"github.com/chenhu1001/gin-layui/app/dto"
+	"github.com/chenhu1001/gin-layui/app/model"
+	"github.com/chenhu1001/gin-layui/utils"
 )
 
 var OperLog = new(operLogService)

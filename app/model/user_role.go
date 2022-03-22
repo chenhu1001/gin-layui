@@ -17,7 +17,7 @@
 
 package model
 
-import "easygoadmin/utils"
+import "github.com/chenhu1001/gin-layui/utils"
 
 type UserRole struct {
 	UserId int `json:"user_id" xorm:"not null default 0 comment('人员ID') index INT(10)"`

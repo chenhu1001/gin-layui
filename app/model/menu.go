@@ -17,7 +17,7 @@
 
 package model
 
-import "easygoadmin/utils"
+import "github.com/chenhu1001/gin-layui/utils"
 
 type Menu struct {
 	Id         int    `json:"id" xorm:"not null pk autoincr comment('唯一性标识') INT(10)"`

@@ -24,8 +24,8 @@
 package service
 
 import (
-	"easygoadmin/app/model"
-	"easygoadmin/utils"
+	"github.com/chenhu1001/gin-layui/app/model"
+	"github.com/chenhu1001/gin-layui/utils"
 )
 
 var UserRole = new(userRoleService)

@@ -7,11 +7,11 @@
 package main
 
 import (
-	_ "easygoadmin/boot"
-	cfg "easygoadmin/library/cfg"
-	_ "easygoadmin/router"
-	"easygoadmin/widget"
 	"fmt"
+	_ "github.com/chenhu1001/gin-layui/boot"
+	cfg "github.com/chenhu1001/gin-layui/library/cfg"
+	_ "github.com/chenhu1001/gin-layui/router"
+	"github.com/chenhu1001/gin-layui/widget"
 	"github.com/gin-contrib/multitemplate"
 	"github.com/gin-gonic/gin"
 	"html/template"

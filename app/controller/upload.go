@@ -24,9 +24,9 @@
 package controller
 
 import (
-	"easygoadmin/app/service"
-	"easygoadmin/utils"
-	"easygoadmin/utils/common"
+	"github.com/chenhu1001/gin-layui/app/service"
+	"github.com/chenhu1001/gin-layui/utils"
+	"github.com/chenhu1001/gin-layui/utils/common"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

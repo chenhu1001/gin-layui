@@ -23,7 +23,7 @@
  */
 package dto
 
-import "easygoadmin/app/model"
+import "github.com/chenhu1001/gin-layui/app/model"
 
 // 列表查询条件
 type MenuQueryReq struct {

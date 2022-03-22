@@ -24,13 +24,13 @@
 package controller
 
 import (
-	"easygoadmin/app/model"
-	"easygoadmin/utils"
-	"easygoadmin/utils/common"
-	"easygoadmin/utils/gconv"
-	"easygoadmin/utils/gstr"
-	"easygoadmin/utils/response"
 	"encoding/json"
+	"github.com/chenhu1001/gin-layui/app/model"
+	"github.com/chenhu1001/gin-layui/utils"
+	"github.com/chenhu1001/gin-layui/utils/common"
+	"github.com/chenhu1001/gin-layui/utils/gconv"
+	"github.com/chenhu1001/gin-layui/utils/gstr"
+	"github.com/chenhu1001/gin-layui/utils/response"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"regexp"

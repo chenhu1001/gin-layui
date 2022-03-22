@@ -24,11 +24,11 @@
 package service
 
 import (
-	"easygoadmin/app/dto"
-	"easygoadmin/app/model"
-	"easygoadmin/utils"
-	"easygoadmin/utils/gconv"
 	"errors"
+	"github.com/chenhu1001/gin-layui/app/dto"
+	"github.com/chenhu1001/gin-layui/app/model"
+	"github.com/chenhu1001/gin-layui/utils"
+	"github.com/chenhu1001/gin-layui/utils/gconv"
 	"strings"
 	"time"
 )

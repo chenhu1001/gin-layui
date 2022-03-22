@@ -24,12 +24,12 @@
 package service
 
 import (
-	"easygoadmin/utils"
-	"easygoadmin/utils/gconv"
-	"easygoadmin/utils/gregex"
-	"easygoadmin/utils/gstr"
 	"errors"
 	"fmt"
+	"github.com/chenhu1001/gin-layui/utils"
+	"github.com/chenhu1001/gin-layui/utils/gconv"
+	"github.com/chenhu1001/gin-layui/utils/gregex"
+	"github.com/chenhu1001/gin-layui/utils/gstr"
 	"github.com/gin-gonic/gin"
 	"path"
 	"path/filepath"
