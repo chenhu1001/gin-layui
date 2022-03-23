@@ -2,7 +2,7 @@ gin:
   port: 8888
 db:
   user: root
-  password: 123
+  password: root
   host: 127.0.0.1
   port: 3306
   dbName: hrms_C001,hrms_C002
