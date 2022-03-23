@@ -41,7 +41,7 @@ func InitConfig() error {
 		return err
 	}
 	log.Printf("[config.Init] 初始化配置成功,config=%v", config)
-	resource.HrmsConf = config
+	resource.GlobalConf = config
 	return nil
 }
 
@@ -51,7 +51,7 @@ func InitGin() error {
 	htmlInit(server)
 	// 初始化路由
 	routerInit(server)
-	err := server.Run(fmt.Sprintf(":%v", resource.HrmsConf.Gin.Port))
+	err := server.Run(fmt.Sprintf(":%v", resource.GlobalConf.Gin.Port))
 	if err != nil {
 		log.Printf("[InitGin] err = %v", err)
 	}
@@ -183,15 +183,15 @@ func htmlInit(server *gin.Engine) {
 func InitGorm() error {
 	// "user:pass@tcp(127.0.0.1:3306)/dbname?charset=utf8mb4&parseTime=True&loc=Local"
 	// 对每个分公司数据库进行连接
-	dbNames := resource.HrmsConf.Db.DbName
+	dbNames := resource.GlobalConf.Db.DbName
 	dbNameList := strings.Split(dbNames, ",")
 	for index, dbName := range dbNameList {
 		dsn := fmt.Sprintf(
 			"%v:%v@tcp(%v:%v)/%v?charset=utf8mb4&parseTime=True&loc=Local",
-			resource.HrmsConf.Db.User,
-			resource.HrmsConf.Db.Password,
-			resource.HrmsConf.Db.Host,
-			resource.HrmsConf.Db.Port,
+			resource.GlobalConf.Db.User,
+			resource.GlobalConf.Db.Password,
+			resource.GlobalConf.Db.Host,
+			resource.GlobalConf.Db.Port,
 			dbName,
 		)
 		db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{

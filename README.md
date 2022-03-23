@@ -8,16 +8,13 @@ goreleaser init
 Mac
 ```
 brew install goreleaser
-goreleaser --rm-dist
 goreleaser --snapshot --skip-publish --rm-dist
 ```
 Linux
 ```
-./goreleaser --rm-dist
 ./goreleaser --snapshot --skip-publish --rm-dist
 ```
 Windows
 ```
-goreleaser.exe --rm-dist
 goreleaser.exe --snapshot --skip-publish --rm-dist
 ```

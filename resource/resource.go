@@ -9,7 +9,7 @@ import (
 )
 
 // 全局配置文件
-var HrmsConf *Config
+var GlobalConf *Config
 
 // 分公司数据库映射表
 var DbMapper = make(map[string]*gorm.DB)
