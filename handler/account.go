@@ -22,7 +22,8 @@ func Home(c *gin.Context) {
 
 func About(c *gin.Context) {
 	c.HTML(http.StatusOK, "about.html", gin.H{
-		"create": true,
+		"create":     true,
+		"actionName": "about",
 	})
 }
 
