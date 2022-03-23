@@ -1,0 +1,25 @@
+<footer class="blog-footer">
+    <p><span>Copyright</span><span>&copy;</span><span>2022</span><a href="{{.config.url}}">{{.config.title}}</a></p>
+</footer>
+
+<!--分享窗体-->
+<div class="blog-share layui-hide">
+    <div class="blog-share-body">
+        <div style="width: 200px;height:100%;">
+            <div class="bdsharebuttonbox">
+                <a class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+                <a class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                <a class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                <a class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--遮罩-->
+<div class="blog-mask animated layui-hide"></div>
+<!-- layui.js -->
+<script src="/static/lib/layui-v2.5.5/layui.js"></script>
+<!-- 全局脚本 -->
+<script src="/static/js/global.js"></script>
+
+<script src="/static/js/{{.actionName}}.js"></script>

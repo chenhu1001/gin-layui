@@ -60,6 +60,10 @@ func InitGin() error {
 }
 
 func routerInit(server *gin.Engine) {
+	// blog
+	server.GET("/", handler.Home)
+	server.GET("/home.html", handler.Home)
+	server.GET("about.html", handler.About)
 	// 测试
 	server.GET("/ping", handler.Ping)
 	// 权限重定向

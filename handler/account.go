@@ -13,6 +13,19 @@ import (
 	"strings"
 )
 
+func Home(c *gin.Context) {
+	c.HTML(http.StatusOK, "home.html", gin.H{
+		"create":     true,
+		"actionName": "home",
+	})
+}
+
+func About(c *gin.Context) {
+	c.HTML(http.StatusOK, "about.html", gin.H{
+		"create": true,
+	})
+}
+
 func Ping(c *gin.Context) {
 	c.HTML(http.StatusOK, "staff_manage.html", gin.H{
 		"create": true,
